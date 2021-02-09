@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Sentence caser",
+  "version": "1.0.0",
+  "description": "To change the case",
+  "short_name": "case changer",
+  "permissions": ["activeTab"],
+
+
+  "browser_action": {
+    "default_title": "Sentence caser",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png"
+      }
+   }
+ 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .button {
+        background-color: black;
+        display: inline-block;
+        color: cornsilk;
+        width:200px;
+        height:30px;
+        margin: 5px;
+      }
+      .labelclass{
+        width:300px;
+        margin-left: 5px;
+      }
+      .TextinputClass {      
+        width:800px;
+        margin-left: 5px;
+ 
+      }
+      .divclass{
+        border: none;
+        margin: 5px;
+        padding: 5px; 
+      }
+      .flex{
+        display: flex;
+      }
+      .divOutput{
+        display: none;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="divclass flex">
+      <label class="labelclass" for="Input">Paste text here</label>      
+      <textarea type="text" class="TextinputClass" id="Input" name="Input"></textarea>
+    </div>
+
+    <button id="Sentence case" class="button">Sentence Case</button>
+    <button id="Title case" class="button">Title Case</button>
+    
+
+    <div><textarea type="text" class="TextinputClass" id="Output"></textarea></div>
+
+
+    <script src="popup.js"></script>
+  </body>
+</html>
