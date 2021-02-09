@@ -1,1 +1,14 @@
 Chrome exstension to quickly change case of any sentence
+
+To load an chrome extension from local source, check this: https://www.youtube.com/watch?v=5W9ZPEaVMWE
+
+Alternatively you can read the offical documentation here https://developer.chrome.com/docs/extensions/mv2/tut_debugging/
+
+USING THE EXTENSION:
+
+The extension has a simple UI
+
+1. Paste the text in the text area.
+2. Click the required case button
+3. Case chnaged text is automatically copied to the clipboard
+
